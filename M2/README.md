@@ -1,0 +1,10 @@
+## Modelagem de Banco de Dados - Atividade (M2)
+
+Diagrama Entidade-Relacionamento (DER) construído através da plataforma **brModelo** utilizando a descrição (minimundo) a seguir para representar o ambiente de negócios da empresa ***Happy Cruise***.
+
+### Descrição do Problema
+
+A *Happy Cruise* tem vários navios e uma variedade de itinerários de cruzeiros, cada um envolvendo diversas paradas em portos. A empresa quer manter informações sobre os **marinheiros** que trabalham atualmente em cada um de seus **navios** e também manter registro de todos os seus **cruzeiros**. Declare, claramente, qualquer suposição que você faça.
+Cada navio tem pelo menos um e, é claro, normalmente muitos marinheiros. O identificador único de cada navio é seu número de navio. Outros atributos são seu nome, peso, ano de construção, fabricante e capacidade de passageiros. Cada marinheiro tem um número único de identificação, assim como nome, data de nascimento e nacionalidade. Alguns dos marinheiros estão em cargo de supervisão, supervisionando vários outros marinheiros. Cada marinheiro responde a apenas um supervisor. Um cruzeiro é identificado por um número de série de cruzeiro único. Outros descritores do cruzeiro são nome do cruzeiro, a data de partida, a data de retorno e o porto de saída (que também é o porto final
+do cruzeiro). É claro que o cruzeiro envolve exatamente um navio. Com o decorrer do tempo, um navio navega em diversos cruzeiros, mas há necessidade de listar um navio novo que ainda não tenha navegado em qualquer cruzeiro. Cada cruzeiro faz uma parada em pelo menos um e normalmente em diversos portos, cada um dos quais é normalmente anfitrião de muitos cruzeiros no decorrer do tempo. Além disso, a empresa quer manter informações sobre **portos** que ainda não foram usados em seus cruzeiros, mas que podem ser usados no futuro. Um porto é identificado pelo seu nome e o país no qual está localizado. Outras informações sobre o porto são o número de docas, e sua taxa atual para
+que o navio atraque no porto, que se supõe ser a mesma para todos os navios.
