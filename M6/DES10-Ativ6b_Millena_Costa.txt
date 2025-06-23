@@ -1,0 +1,11 @@
+b.1) Os valores a ser inseridos (seguindo a ordem de colunas na tabela TRABALHA) é ‘677678989’ em essn, ‘null’ em pno e ‘40,0’ em horas. Já o comando DML, desconsiderando possiveis restrições, seria:
+INSERT INTO TRABALHA (essn, pno, horas) VALUES ('67788999', NULL, 40.0);
+
+b.2) O valor a ser removido é o que corresponde ao ssn = ‘987654321’ da tabela EMPREGADO. O DML para removê-lo é:
+DELETE FROM EMPREGADO WHERE ssn = ‘987654321’;
+
+b.3) Os valores a serem modificados são o gerssn e o gerdatainicio da tabela DEPARTAMENTO correspondentes ao dnumero = 5, para ‘123456789’ e ‘1999-01-10’. O comando DML para executá-lo é:
+UPDATE DEPARTAMENTO SET gerssn = '123456789', gerdatainicio = '1999-01-10' WHERE dnumero = 5;
+
+b.4) O valor a ser modificado é o horas da tabela TRABALHA com ESSN = ‘999887777’ e PNO = ‘10’ para ‘5.0’, já o comando DML, desconsiderando possiveis restrições, seria:
+UPDATE TRABALHA SET horas = 5.0 WHERE essn = '999887777' AND pno = 10;
